@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      Chapter2.Repl
       Lib
       Template
   other-modules:
