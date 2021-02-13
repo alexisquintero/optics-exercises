@@ -26,6 +26,8 @@ source-repository head
 library
   exposed-modules:
       Chapter2.Repl
+      Chapter3.Exercises
+      Chapter3.Repl
       Lib
       Template
   other-modules:
