@@ -32,6 +32,8 @@ library
       Chapter4.Repl
       Chapter5.Exercises
       Chapter5.Repl
+      Chapter6.Exercises
+      Chapter6.Repl
       Lib
       Template
   other-modules:
