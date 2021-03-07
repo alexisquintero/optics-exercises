@@ -27,6 +27,7 @@ dependencies:
 - lens-aeson
 - mtl
 - text
+- either
 
 library:
   source-dirs: src

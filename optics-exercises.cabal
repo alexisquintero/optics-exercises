@@ -34,6 +34,8 @@ library
       Chapter5.Repl
       Chapter6.Exercises
       Chapter6.Repl
+      Chapter7.Exercises
+      Chapter7.Repl
       Lib
       Template
   other-modules:
@@ -44,6 +46,7 @@ library
       aeson
     , base >=4.7 && <5
     , containers
+    , either
     , lens
     , lens-aeson
     , mtl
@@ -61,6 +64,7 @@ executable optics-exercises-exe
       aeson
     , base >=4.7 && <5
     , containers
+    , either
     , lens
     , lens-aeson
     , mtl
@@ -80,6 +84,7 @@ test-suite optics-exercises-test
       aeson
     , base >=4.7 && <5
     , containers
+    , either
     , lens
     , lens-aeson
     , mtl
