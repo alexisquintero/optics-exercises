@@ -36,6 +36,8 @@ library
       Chapter6.Repl
       Chapter7.Exercises
       Chapter7.Repl
+      Chapter8.Exercises
+      Chapter8.Repl
       Lib
       Template
   other-modules:
@@ -45,6 +47,7 @@ library
   build-depends:
       aeson
     , base >=4.7 && <5
+    , bytestring
     , containers
     , either
     , lens
@@ -63,6 +66,7 @@ executable optics-exercises-exe
   build-depends:
       aeson
     , base >=4.7 && <5
+    , bytestring
     , containers
     , either
     , lens
@@ -83,6 +87,7 @@ test-suite optics-exercises-test
   build-depends:
       aeson
     , base >=4.7 && <5
+    , bytestring
     , containers
     , either
     , lens

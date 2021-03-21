@@ -28,6 +28,7 @@ dependencies:
 - mtl
 - text
 - either
+- bytestring
 
 library:
   source-dirs: src
