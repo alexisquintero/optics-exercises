@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      Chapter10.Exercises
+      Chapter10.Repl
       Chapter2.Repl
       Chapter3.Exercises
       Chapter3.Repl
