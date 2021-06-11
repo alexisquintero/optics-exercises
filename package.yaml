@@ -29,6 +29,7 @@ dependencies:
 - text
 - either
 - bytestring
+- raw-strings-qq
 
 library:
   source-dirs: src

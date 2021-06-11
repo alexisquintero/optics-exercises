@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.2.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 
@@ -38,6 +38,7 @@ library
       Chapter14.Main
       Chapter14.People
       Chapter14.Repl
+      Chapter15.JSON
       Chapter2.Repl
       Chapter3.Exercises
       Chapter3.Repl
@@ -68,6 +69,7 @@ library
     , lens
     , lens-aeson
     , mtl
+    , raw-strings-qq
     , text
   default-language: Haskell2010
 
@@ -88,6 +90,7 @@ executable optics-exercises-exe
     , lens-aeson
     , mtl
     , optics-exercises
+    , raw-strings-qq
     , text
   default-language: Haskell2010
 
@@ -109,5 +112,6 @@ test-suite optics-exercises-test
     , lens-aeson
     , mtl
     , optics-exercises
+    , raw-strings-qq
     , text
   default-language: Haskell2010
