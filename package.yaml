@@ -30,6 +30,7 @@ dependencies:
 - either
 - bytestring
 - raw-strings-qq
+- generic-lens
 
 library:
   source-dirs: src

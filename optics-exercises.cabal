@@ -40,6 +40,7 @@ library
       Chapter14.Repl
       Chapter15.JSON
       Chapter16.Repl
+      Chapter17.Repl
       Chapter2.Repl
       Chapter3.Exercises
       Chapter3.Repl
@@ -67,6 +68,7 @@ library
     , bytestring
     , containers
     , either
+    , generic-lens
     , lens
     , lens-aeson
     , mtl
@@ -87,6 +89,7 @@ executable optics-exercises-exe
     , bytestring
     , containers
     , either
+    , generic-lens
     , lens
     , lens-aeson
     , mtl
@@ -109,6 +112,7 @@ test-suite optics-exercises-test
     , bytestring
     , containers
     , either
+    , generic-lens
     , lens
     , lens-aeson
     , mtl
